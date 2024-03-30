@@ -6,7 +6,7 @@
   <link href="https://lunacsy.github.io/atom.xml" rel="self"/>
   
   <link href="https://lunacsy.github.io/"/>
-  <updated>2024-03-30T11:03:24.913Z</updated>
+  <updated>2024-03-30T13:35:57.275Z</updated>
   <id>https://lunacsy.github.io/</id>
   
   <author>
@@ -17,11 +17,33 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>计算机图形学</title>
+    <link href="https://lunacsy.github.io/2024/03/30/ji-suan-ji-tu-xing-xue/"/>
+    <id>https://lunacsy.github.io/2024/03/30/ji-suan-ji-tu-xing-xue/</id>
+    <published>2024-03-30T13:23:34.491Z</published>
+    <updated>2024-03-30T13:35:57.275Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;作业一自主绘制&quot;&gt;&lt;a href=&quot;#作业一自主绘制&quot; class=&quot;headerlink&quot; title=&quot;作业一自主绘制&quot;&gt;&lt;/a&gt;作业一自主绘制&lt;/h1&gt;&lt;p&gt;代码如下：&lt;/p&gt;
+&lt;pre class=&quot;line-numbers language-c++&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
     <link href="https://lunacsy.github.io/2024/03/30/hello-world/"/>
     <id>https://lunacsy.github.io/2024/03/30/hello-world/</id>
     <published>2024-03-30T11:03:24.913Z</published>
-    <updated>2024-03-30T11:03:24.913Z</updated>
+    <updated>2024-03-30T12:44:41.631Z</updated>
     
     
       
