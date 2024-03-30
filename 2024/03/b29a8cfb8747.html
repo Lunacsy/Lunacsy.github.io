@@ -251,12 +251,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/22.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/9.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">计算机图形学</h1>
+                    <h1 class="description center-align post-title">平时作业</h1>
                 </div>
             </div>
         </div>
@@ -419,7 +419,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    824
+                    4.3k
                 </div>
                 
 
@@ -440,12 +440,16 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h2 id="作品1-可爱小熊"><a href="#作品1-可爱小熊" class="headerlink" title="作品1&nbsp;可爱小熊"></a>作品1&nbsp;可爱小熊</h2><h3 id="1-1-需求分析"><a href="#1-1-需求分析" class="headerlink" title="1.1 需求分析"></a>1.1 需求分析</h3><ul>
-<li>安装绘图库EasyX Graphics Library</li>
-<li>绘制一个小熊形象，并且形象鲜明容易辨别</li>
-<li>添加眼睛、鼻子、嘴巴等面部表情</li>
-<li>为小熊设计可爱的动作</li>
+<li><p>安装绘图库EasyX Graphics Library</p>
+</li>
+<li><p>绘制一个小熊形象，并且形象鲜明容易辨别</p>
+</li>
+<li><p>添加眼睛、鼻子、嘴巴等面部表情</p>
+</li>
+<li><p>为小熊设计可爱的动作</p>
+</li>
 </ul>
-<h3 id="1-2-方案设计"><a href="#1-2-方案设计" class="headerlink" title="1.2 方案设计"></a>1.2 方案设计</h3><p>首先在网上查找关于小熊头像的简笔画，分析小熊的特征：<br><img src="https://gitee.com/Lunacsy/pic/raw/master/202403310016150.png" alt="image.png"></p>
+<h3 id="1-2-方案设计"><a href="#1-2-方案设计" class="headerlink" title="1.2 方案设计"></a>1.2 方案设计</h3><p>首先在网上查找关于小熊头像的简笔画，分析小熊的特征：<br><img src="https://gitee.com/Lunacsy/pic/raw/master/202403310016150.png"></p>
 <ul>
 <li><p>小熊整体以棕黄色为主</p>
 </li>
@@ -562,7 +566,498 @@
         <span class="token function">solidcircle</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span>x<span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span>y<span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
     <span class="token punctuation">}</span>  
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="1-4-作品效果"><a href="#1-4-作品效果" class="headerlink" title="1.4 作品效果"></a>1.4 作品效果</h3><p><img src="https://gitee.com/Lunacsy/pic/raw/master/202403310017305.png" alt="image.png"></p>
+<h3 id="1-4-作品效果"><a href="#1-4-作品效果" class="headerlink" title="1.4 作品效果"></a>1.4 作品效果</h3><img src="https://gitee.com/Lunacsy/pic/raw/master/202403310017305.png" width="40%">
+
+
+<hr>
+<h2 id="作品-2-运用DDA画线算法的变换图形"><a href="#作品-2-运用DDA画线算法的变换图形" class="headerlink" title="作品 2 运用DDA画线算法的变换图形"></a>作品 2 运用DDA画线算法的变换图形</h2><h3 id="2-1-需求分析"><a href="#2-1-需求分析" class="headerlink" title="2.1 需求分析"></a>2.1 需求分析</h3><ul>
+<li><p>编写完整的直线生成算法，要求实现实线和虚线的绘制（DDA算法或中点画线法）</p>
+</li>
+<li><p>结合编写的函数绘制以下图形，要求不使用easyx库中已有的setlinestyle()和line()函数。</p>
+<img src="https://gitee.com/Lunacsy/pic/raw/master/202403310032897.png" width="60%"></li>
+</ul>
+<h3 id="2-2-方案设计"><a href="#2-2-方案设计" class="headerlink" title="2.2 方案设计"></a>2.2 方案设计</h3><ul>
+<li><p>首先编写两个函数drawline_solid()和drawline_dash()，分别实现实线和虚线的绘制，函数实现使用DDA算法。DDA算法本质是用数值方法解微分方程yi=ki+b和yi+1=yi+k×∆x，通过计算X和Y各增加的小增量，来计算下一步的X和Y的坐标值。</p>
+</li>
+<li><p>函数中使用for循环和putpixel()函数绘制一系列点，从而实现多个点汇成一条直线。为使点分布密集，需要分析沿X轴还是Y轴计算增量。若直线陡峭，则Y轴坐标差| dy |大（＞X轴坐标差），选择| dy |作为步长length可绘制更多的点，反之，选择X轴坐标差。其中，计算绝对值可以使用abs()函数。</p>
+</li>
+<li><p>编写虚线函数时，可以在实线函数基础上实现虚线效果，即可以在某个(X,Y)点时不绘制该点。可以控制循环次数i，当i每自增5的倍数时，即每隔4个点，不绘制某个点，即判断i%5!=0则绘制。为使虚线清晰可见，选择了每绘制4个点，接下来连续的三个点都不绘制（使用x+x0+x0、y+y0+y0、length-2进行控制）。</p>
+</li>
+<li><p>需要绘制的图形3和图形4需要计算图形各边长的比例关系，等腰直角三角形中以斜边为底的情况下，斜边 ：直角边 ：高 = 2 ：√2 ：2。</p>
+</li>
+<li><p>编写完函数再在主函数中调用即可绘制组合图形。并且void drawline_solid(int x1,int y1,int x2,int y2,int color);中(x1,y1)为起点坐标，(y1,y2)为终点坐标，color为绘制的直线颜色。</p>
+</li>
+</ul>
+<h3 id="2-3-代码实现"><a href="#2-3-代码实现" class="headerlink" title="2.3 代码实现"></a>2.3 代码实现</h3><pre class="line-numbers language-cpp" data-language="cpp"><code class="language-cpp"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span><span class="token string">&lt;graphics.h&gt;</span>  </span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span><span class="token string">&lt;conio.h&gt;</span>  </span>
+<span class="token keyword">void</span> <span class="token function">drawline_solid</span><span class="token punctuation">(</span><span class="token keyword">int</span> x1<span class="token punctuation">,</span><span class="token keyword">int</span> y1<span class="token punctuation">,</span><span class="token keyword">int</span> x2<span class="token punctuation">,</span><span class="token keyword">int</span> y2<span class="token punctuation">,</span><span class="token keyword">int</span> color<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//实线函数  </span>
+<span class="token keyword">void</span> <span class="token function">drawline_dash</span><span class="token punctuation">(</span><span class="token keyword">int</span> x1<span class="token punctuation">,</span><span class="token keyword">int</span> y1<span class="token punctuation">,</span><span class="token keyword">int</span> x2<span class="token punctuation">,</span><span class="token keyword">int</span> y2<span class="token punctuation">,</span><span class="token keyword">int</span> color<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//虚线函数  </span>
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>  
+<span class="token punctuation">{</span>  
+    <span class="token comment">//准备工作  </span>
+    <span class="token function">initgraph</span><span class="token punctuation">(</span><span class="token number">1000</span><span class="token punctuation">,</span><span class="token number">1000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">setbkcolor</span><span class="token punctuation">(</span>WHITE<span class="token punctuation">)</span><span class="token punctuation">;</span>      <span class="token comment">//背景颜色白色  </span>
+    <span class="token function">cleardevice</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>          <span class="token comment">//清空屏幕  </span>
+    <span class="token function">setorigin</span><span class="token punctuation">(</span><span class="token number">500</span><span class="token punctuation">,</span><span class="token number">500</span><span class="token punctuation">)</span><span class="token punctuation">;</span>     <span class="token comment">//重置原点  </span>
+    <span class="token function">setaspectratio</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//y轴向上  </span>
+    <span class="token function">drawline_dash</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">500</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">500</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span>BLACK<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//画坐标轴  </span>
+    <span class="token function">drawline_dash</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">500</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">500</span><span class="token punctuation">,</span>BLACK<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token comment">//作业部分  </span>
+    <span class="token comment">//1 实线竖线  </span>
+    <span class="token function">drawline_solid</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">300</span><span class="token punctuation">,</span><span class="token number">200</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">300</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">200</span><span class="token punctuation">,</span>RED<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//实线  </span>
+    <span class="token comment">//2 虚线竖线  </span>
+    <span class="token function">drawline_dash</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">200</span><span class="token punctuation">,</span><span class="token number">200</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">200</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">200</span><span class="token punctuation">,</span>BLUE<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//虚线  </span>
+    <span class="token comment">//3 组合图形  </span>
+    <span class="token function">drawline_solid</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">100</span><span class="token punctuation">,</span><span class="token number">200</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">100</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">200</span><span class="token punctuation">,</span>RED<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//实线  </span>
+    <span class="token function">drawline_solid</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">100</span><span class="token punctuation">,</span><span class="token number">200</span><span class="token punctuation">,</span><span class="token number">100</span><span class="token punctuation">,</span><span class="token number">200</span><span class="token punctuation">,</span>RED<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//实线  </span>
+    <span class="token function">drawline_solid</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">100</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">200</span><span class="token punctuation">,</span><span class="token number">100</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">200</span><span class="token punctuation">,</span>RED<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//实线  </span>
+    <span class="token function">drawline_dash</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">100</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">100</span><span class="token punctuation">,</span><span class="token number">200</span><span class="token punctuation">,</span>BLUE<span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token comment">//虚线  </span>
+    <span class="token function">drawline_dash</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">100</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">100</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">200</span><span class="token punctuation">,</span>BLUE<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//虚线  </span>
+    <span class="token comment">//4 组合图形  </span>
+    <span class="token function">drawline_dash</span><span class="token punctuation">(</span><span class="token number">250</span><span class="token punctuation">,</span><span class="token number">200</span><span class="token punctuation">,</span><span class="token number">250</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">200</span><span class="token punctuation">,</span>BLUE<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//虚线  </span>
+    <span class="token function">drawline_dash</span><span class="token punctuation">(</span><span class="token number">250</span><span class="token punctuation">,</span><span class="token number">200</span><span class="token punctuation">,</span><span class="token number">450</span><span class="token punctuation">,</span><span class="token number">200</span><span class="token punctuation">,</span>BLUE<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//虚线  </span>
+    <span class="token function">drawline_dash</span><span class="token punctuation">(</span><span class="token number">250</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">200</span><span class="token punctuation">,</span><span class="token number">450</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">200</span><span class="token punctuation">,</span>BLUE<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//虚线  </span>
+    <span class="token function">drawline_solid</span><span class="token punctuation">(</span><span class="token number">150</span><span class="token punctuation">,</span><span class="token number">100</span><span class="token punctuation">,</span><span class="token number">250</span><span class="token punctuation">,</span><span class="token number">200</span><span class="token punctuation">,</span>RED<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//实线    左上三角  </span>
+    <span class="token function">drawline_solid</span><span class="token punctuation">(</span><span class="token number">150</span><span class="token punctuation">,</span><span class="token number">100</span><span class="token punctuation">,</span><span class="token number">250</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span>RED<span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token comment">//实线  </span>
+    <span class="token function">drawline_solid</span><span class="token punctuation">(</span><span class="token number">150</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">100</span><span class="token punctuation">,</span><span class="token number">250</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">200</span><span class="token punctuation">,</span>RED<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//实线    左下三角  </span>
+    <span class="token function">drawline_solid</span><span class="token punctuation">(</span><span class="token number">150</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">100</span><span class="token punctuation">,</span><span class="token number">250</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span>RED<span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token comment">//实线  </span>
+    <span class="token function">drawline_solid</span><span class="token punctuation">(</span><span class="token number">350</span><span class="token punctuation">,</span><span class="token number">300</span><span class="token punctuation">,</span><span class="token number">250</span><span class="token punctuation">,</span><span class="token number">200</span><span class="token punctuation">,</span>RED<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//实线    正上三角  </span>
+    <span class="token function">drawline_solid</span><span class="token punctuation">(</span><span class="token number">350</span><span class="token punctuation">,</span><span class="token number">300</span><span class="token punctuation">,</span><span class="token number">450</span><span class="token punctuation">,</span><span class="token number">200</span><span class="token punctuation">,</span>RED<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//实线  </span>
+    <span class="token function">drawline_solid</span><span class="token punctuation">(</span><span class="token number">350</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">300</span><span class="token punctuation">,</span><span class="token number">250</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">200</span><span class="token punctuation">,</span>RED<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//实线    正下三角  </span>
+    <span class="token function">drawline_solid</span><span class="token punctuation">(</span><span class="token number">350</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">300</span><span class="token punctuation">,</span><span class="token number">450</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">200</span><span class="token punctuation">,</span>RED<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//实线  </span>
+        <span class="token function">_getch</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>  
+<span class="token punctuation">}</span>  
+  
+<span class="token keyword">void</span> <span class="token function">drawline_solid</span><span class="token punctuation">(</span><span class="token keyword">int</span> x1<span class="token punctuation">,</span><span class="token keyword">int</span> y1<span class="token punctuation">,</span><span class="token keyword">int</span> x2<span class="token punctuation">,</span><span class="token keyword">int</span> y2<span class="token punctuation">,</span><span class="token keyword">int</span> color<span class="token punctuation">)</span>  
+<span class="token punctuation">{</span>  
+    <span class="token keyword">float</span> dx <span class="token operator">=</span> x2<span class="token operator">-</span>x1<span class="token punctuation">;</span>    <span class="token comment">//x轴坐标差  </span>
+    <span class="token keyword">float</span> dy <span class="token operator">=</span> y2<span class="token operator">-</span>y1<span class="token punctuation">;</span>    <span class="token comment">//y轴坐标差  </span>
+    <span class="token keyword">float</span> x <span class="token operator">=</span> x1<span class="token punctuation">;</span>        <span class="token comment">//画线起点坐标  </span>
+    <span class="token keyword">float</span> y <span class="token operator">=</span> y1<span class="token punctuation">;</span>  
+    <span class="token keyword">int</span> length<span class="token punctuation">;</span>            <span class="token comment">//选择长度  </span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token function">abs</span><span class="token punctuation">(</span>dy<span class="token punctuation">)</span><span class="token operator">&lt;=</span><span class="token function">abs</span><span class="token punctuation">(</span>dx<span class="token punctuation">)</span><span class="token punctuation">)</span>    <span class="token comment">//|斜率|≤1，选择x递增  </span>
+    <span class="token punctuation">{</span>  
+        length <span class="token operator">=</span> <span class="token function">abs</span><span class="token punctuation">(</span>dx<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token punctuation">}</span>  
+    <span class="token keyword">else</span>    <span class="token comment">//|斜率|＞1，选择y递增  </span>
+    <span class="token punctuation">{</span>  
+        length <span class="token operator">=</span> <span class="token function">abs</span><span class="token punctuation">(</span>dy<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token punctuation">}</span>  
+    <span class="token keyword">float</span> x0 <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">float</span><span class="token punctuation">)</span><span class="token punctuation">(</span>dx<span class="token operator">/</span>length<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//x单次增量  </span>
+    <span class="token keyword">float</span> y0 <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">float</span><span class="token punctuation">)</span><span class="token punctuation">(</span>dy<span class="token operator">/</span>length<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//y单次增量  </span>
+    <span class="token function">putpixel</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span><span class="token punctuation">(</span>x<span class="token operator">+</span><span class="token number">0.5</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span><span class="token punctuation">(</span>y<span class="token operator">+</span><span class="token number">0.5</span><span class="token punctuation">)</span><span class="token punctuation">,</span>color<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//画起点  </span>
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span> i<span class="token operator">&lt;=</span>length <span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>  
+    <span class="token punctuation">{</span>  
+        x <span class="token operator">+=</span> x0<span class="token punctuation">;</span>    <span class="token comment">//x增加  </span>
+        y <span class="token operator">+=</span> y0<span class="token punctuation">;</span>    <span class="token comment">//y增加  </span>
+        <span class="token function">putpixel</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span><span class="token punctuation">(</span>x<span class="token operator">+</span><span class="token number">0.5</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span><span class="token punctuation">(</span>y<span class="token operator">+</span><span class="token number">0.5</span><span class="token punctuation">)</span><span class="token punctuation">,</span>color<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//画点  </span>
+    <span class="token punctuation">}</span>  
+<span class="token punctuation">}</span>  
+  
+<span class="token keyword">void</span> <span class="token function">drawline_dash</span><span class="token punctuation">(</span><span class="token keyword">int</span> x1<span class="token punctuation">,</span><span class="token keyword">int</span> y1<span class="token punctuation">,</span><span class="token keyword">int</span> x2<span class="token punctuation">,</span><span class="token keyword">int</span> y2<span class="token punctuation">,</span><span class="token keyword">int</span> color<span class="token punctuation">)</span>  
+<span class="token punctuation">{</span>  
+    <span class="token keyword">float</span> dx <span class="token operator">=</span> x2<span class="token operator">-</span>x1<span class="token punctuation">;</span>    <span class="token comment">//x轴坐标差  </span>
+    <span class="token keyword">float</span> dy <span class="token operator">=</span> y2<span class="token operator">-</span>y1<span class="token punctuation">;</span>    <span class="token comment">//y轴坐标差  </span>
+    <span class="token keyword">float</span> x <span class="token operator">=</span> x1<span class="token punctuation">;</span>        <span class="token comment">//画线起点坐标  </span>
+    <span class="token keyword">float</span> y <span class="token operator">=</span> y1<span class="token punctuation">;</span>  
+    <span class="token keyword">int</span> length<span class="token punctuation">;</span>            <span class="token comment">//选择长度  </span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token function">abs</span><span class="token punctuation">(</span>dy<span class="token punctuation">)</span><span class="token operator">&lt;=</span><span class="token function">abs</span><span class="token punctuation">(</span>dx<span class="token punctuation">)</span><span class="token punctuation">)</span>    <span class="token comment">//|斜率|≤1，选择x递增  </span>
+    <span class="token punctuation">{</span>  
+        length <span class="token operator">=</span> <span class="token function">abs</span><span class="token punctuation">(</span>dx<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token punctuation">}</span>  
+    <span class="token keyword">else</span>    <span class="token comment">//|斜率|＞1，选择y递增  </span>
+    <span class="token punctuation">{</span>  
+        length <span class="token operator">=</span> <span class="token function">abs</span><span class="token punctuation">(</span>dy<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token punctuation">}</span>  
+    <span class="token keyword">float</span> x0 <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">float</span><span class="token punctuation">)</span><span class="token punctuation">(</span>dx<span class="token operator">/</span>length<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//x单次增量  </span>
+    <span class="token keyword">float</span> y0 <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">float</span><span class="token punctuation">)</span><span class="token punctuation">(</span>dy<span class="token operator">/</span>length<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//y单次增量  </span>
+    <span class="token function">putpixel</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span><span class="token punctuation">(</span>x<span class="token operator">+</span><span class="token number">0.5</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span><span class="token punctuation">(</span>y<span class="token operator">+</span><span class="token number">0.5</span><span class="token punctuation">)</span><span class="token punctuation">,</span>color<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//画起点  </span>
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span> i<span class="token operator">&lt;=</span>length <span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>  
+    <span class="token punctuation">{</span>  
+        x <span class="token operator">+=</span> x0<span class="token punctuation">;</span>    <span class="token comment">//x增加  </span>
+        y <span class="token operator">+=</span> y0<span class="token punctuation">;</span>    <span class="token comment">//y增加  </span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>i<span class="token operator">%</span><span class="token number">5</span><span class="token operator">==</span><span class="token number">0</span><span class="token punctuation">)</span>    <span class="token comment">//接下来跳过三个点的绘制  </span>
+        <span class="token punctuation">{</span>  
+            x <span class="token operator">=</span> x <span class="token operator">+</span> x0 <span class="token operator">+</span> x0<span class="token punctuation">;</span>    <span class="token comment">//x增加  </span>
+            y <span class="token operator">=</span> y <span class="token operator">+</span> y0 <span class="token operator">+</span> y0<span class="token punctuation">;</span>    <span class="token comment">//y增加  </span>
+            length <span class="token operator">=</span> length <span class="token operator">-</span> <span class="token number">2</span><span class="token punctuation">;</span>    <span class="token comment">//自增次数-2  </span>
+        <span class="token punctuation">}</span>  
+        <span class="token keyword">else</span>  
+        <span class="token punctuation">{</span>  
+            <span class="token function">putpixel</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span><span class="token punctuation">(</span>x<span class="token operator">+</span><span class="token number">0.5</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span><span class="token punctuation">(</span>y<span class="token operator">+</span><span class="token number">0.5</span><span class="token punctuation">)</span><span class="token punctuation">,</span>color<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//画点  </span>
+        <span class="token punctuation">}</span>  
+    <span class="token punctuation">}</span>  
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="2-4-作品效果"><a href="#2-4-作品效果" class="headerlink" title="2.4 作品效果"></a>2.4 作品效果</h3><img src="https://gitee.com/Lunacsy/pic/raw/master/202403310036593.png" width="60%">
+
+
+<hr>
+<h2 id="作品-3-明暗鲜明的五角星"><a href="#作品-3-明暗鲜明的五角星" class="headerlink" title="作品 3 明暗鲜明的五角星"></a>作品 3 明暗鲜明的五角星</h2><h3 id="3-1-需求分析"><a href="#3-1-需求分析" class="headerlink" title="3.1 需求分析"></a>3.1 需求分析</h3><ul>
+<li><p>绘画一个五角星</p>
+</li>
+<li><p>运用中点画线法和Bresenham算法函数实现画线</p>
+</li>
+<li><p>使用Easyx库自带的填充函数为五角星上色</p>
+</li>
+</ul>
+<h3 id="3-2-方案设计"><a href="#3-2-方案设计" class="headerlink" title="3.2 方案设计"></a>3.2 方案设计</h3><ul>
+<li>首先在网络上查找五角星的图片，如下图：</li>
+</ul>
+<p><img src="https://gitee.com/Lunacsy/pic/raw/master/202403310041801.png"></p>
+<ul>
+<li><p>可见：五角星是关于竖轴对称的图形，上图的五角星大致可以分为10个三角形，包括5个明面三角形、5个暗面三角形。</p>
+</li>
+<li><p>首先，确定五角星各顶点坐标，使用GetData软件设中心点为原点以及设置单位长度，获取其余各点坐标，由于轴对称图形，获取一半点即可，因坐标会出现小数点，四舍五入处理。</p>
+</li>
+</ul>
+<p><img src="https://gitee.com/Lunacsy/pic/raw/master/202403310042966.png"></p>
+<ul>
+<li><p>为节省代码，编写void xduichen_line(int x1,int y1,int x2,int y2,int color,int way);函数。其中way=1时，调用中点画线法；way=2时，调用Bresenham算法。此函数是为画关于X轴对称的两条直线，因为关于X轴对称的两条直线的起点终点坐标仅横坐标相反、纵坐标相同。</p>
+</li>
+<li><p>为体现不同画线方法，内部线条采用中点画线法，使用明黄色；外部线条采用Bresenham算法，采用暗黄色。</p>
+</li>
+<li><p>使用类似POINT pts[] = { {50, 200}, {200, 200}, {200, 50} }; fillpolygon(pts, 3);&nbsp;可以实现填充三角形颜色。为了节省代码，采用二维数组一次存储五个三角形的顶点信息，再使用循环遍历数组填充三角形。</p>
+</li>
+</ul>
+<h3 id="3-3-代码实现"><a href="#3-3-代码实现" class="headerlink" title="3.3 代码实现"></a>3.3 代码实现</h3><pre class="line-numbers language-cpp" data-language="cpp"><code class="language-cpp"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;graphics.h&gt;</span>  </span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;conio.h&gt;</span>  </span>
+<span class="token keyword">int</span> <span class="token function">Sign</span><span class="token punctuation">(</span><span class="token keyword">int</span> x<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+<span class="token keyword">void</span> <span class="token function">MPLine_all</span><span class="token punctuation">(</span><span class="token keyword">int</span> x1<span class="token punctuation">,</span><span class="token keyword">int</span> y1<span class="token punctuation">,</span><span class="token keyword">int</span> x2<span class="token punctuation">,</span><span class="token keyword">int</span> y2<span class="token punctuation">,</span><span class="token keyword">int</span> color<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+<span class="token keyword">void</span> <span class="token function">BHLine_all</span><span class="token punctuation">(</span><span class="token keyword">int</span> x1<span class="token punctuation">,</span><span class="token keyword">int</span> y1<span class="token punctuation">,</span><span class="token keyword">int</span> x2<span class="token punctuation">,</span><span class="token keyword">int</span> y2<span class="token punctuation">,</span><span class="token keyword">int</span> color<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+<span class="token keyword">void</span> <span class="token function">xduichen_line</span><span class="token punctuation">(</span><span class="token keyword">int</span> x1<span class="token punctuation">,</span><span class="token keyword">int</span> y1<span class="token punctuation">,</span><span class="token keyword">int</span> x2<span class="token punctuation">,</span><span class="token keyword">int</span> y2<span class="token punctuation">,</span><span class="token keyword">int</span> color<span class="token punctuation">,</span><span class="token keyword">int</span> way<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//画关于x轴对称的两条直线  </span>
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>  
+    <span class="token function">initgraph</span><span class="token punctuation">(</span><span class="token number">1000</span><span class="token punctuation">,</span><span class="token number">1000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">setbkcolor</span><span class="token punctuation">(</span>WHITE<span class="token punctuation">)</span><span class="token punctuation">;</span>      <span class="token comment">//背景颜色白色  </span>
+    <span class="token function">cleardevice</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>          <span class="token comment">//清空屏幕  </span>
+    <span class="token function">setorigin</span><span class="token punctuation">(</span><span class="token number">500</span><span class="token punctuation">,</span><span class="token number">500</span><span class="token punctuation">)</span><span class="token punctuation">;</span>     <span class="token comment">//重置原点  </span>
+    <span class="token function">setaspectratio</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//y轴向上  </span>
+    <span class="token comment">//画坐标轴  </span>
+    <span class="token function">setlinecolor</span><span class="token punctuation">(</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">161</span><span class="token punctuation">,</span><span class="token number">161</span><span class="token punctuation">,</span><span class="token number">160</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//灰色  </span>
+    <span class="token function">setlinestyle</span><span class="token punctuation">(</span>PS_DASH<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//虚线  </span>
+    <span class="token function">line</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">500</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">500</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token comment">//x轴  </span>
+    <span class="token function">line</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">500</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">500</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token comment">//y轴  </span>
+    <span class="token comment">//五角星  </span>
+    <span class="token comment">//一、描边  </span>
+    <span class="token comment">//1.1 内线：调用中点画线法  </span>
+    <span class="token function">xduichen_line</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">467</span><span class="token punctuation">,</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">255</span><span class="token punctuation">,</span><span class="token number">212</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">xduichen_line</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">143</span><span class="token punctuation">,</span><span class="token number">188</span><span class="token punctuation">,</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">255</span><span class="token punctuation">,</span><span class="token number">212</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">xduichen_line</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">455</span><span class="token punctuation">,</span><span class="token number">142</span><span class="token punctuation">,</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">255</span><span class="token punctuation">,</span><span class="token number">212</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">xduichen_line</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">230</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">77</span><span class="token punctuation">,</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">255</span><span class="token punctuation">,</span><span class="token number">212</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">xduichen_line</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">280</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">384</span><span class="token punctuation">,</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">255</span><span class="token punctuation">,</span><span class="token number">212</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">xduichen_line</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">240</span><span class="token punctuation">,</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">255</span><span class="token punctuation">,</span><span class="token number">212</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token comment">//1.2 外线：调用Bresenham算法  </span>
+    <span class="token function">xduichen_line</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">467</span><span class="token punctuation">,</span><span class="token number">143</span><span class="token punctuation">,</span><span class="token number">188</span><span class="token punctuation">,</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">177</span><span class="token punctuation">,</span><span class="token number">135</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">xduichen_line</span><span class="token punctuation">(</span><span class="token number">455</span><span class="token punctuation">,</span><span class="token number">142</span><span class="token punctuation">,</span><span class="token number">143</span><span class="token punctuation">,</span><span class="token number">188</span><span class="token punctuation">,</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">177</span><span class="token punctuation">,</span><span class="token number">135</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">xduichen_line</span><span class="token punctuation">(</span><span class="token number">455</span><span class="token punctuation">,</span><span class="token number">142</span><span class="token punctuation">,</span><span class="token number">230</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">77</span><span class="token punctuation">,</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">177</span><span class="token punctuation">,</span><span class="token number">135</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">xduichen_line</span><span class="token punctuation">(</span><span class="token number">280</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">384</span><span class="token punctuation">,</span><span class="token number">230</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">77</span><span class="token punctuation">,</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">177</span><span class="token punctuation">,</span><span class="token number">135</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">xduichen_line</span><span class="token punctuation">(</span><span class="token number">280</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">384</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">240</span><span class="token punctuation">,</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">177</span><span class="token punctuation">,</span><span class="token number">135</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">Sleep</span><span class="token punctuation">(</span><span class="token number">5000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//暂停一下、方便截图  </span>
+    <span class="token comment">//二、填充  </span>
+    <span class="token comment">//2.1 明面  </span>
+    <span class="token function">setfillcolor</span><span class="token punctuation">(</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">255</span><span class="token punctuation">,</span><span class="token number">212</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    POINT pts1<span class="token punctuation">[</span><span class="token number">5</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">{</span>  
+        <span class="token punctuation">{</span><span class="token punctuation">{</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">467</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token number">143</span><span class="token punctuation">,</span><span class="token number">188</span><span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">,</span>  
+        <span class="token punctuation">{</span><span class="token punctuation">{</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token number">455</span><span class="token punctuation">,</span><span class="token number">142</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token number">230</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">77</span><span class="token punctuation">}</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>  
+        <span class="token punctuation">{</span><span class="token punctuation">{</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token number">280</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">384</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">240</span><span class="token punctuation">}</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>  
+        <span class="token punctuation">{</span><span class="token punctuation">{</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token operator">-</span><span class="token number">280</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">384</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token operator">-</span><span class="token number">230</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">77</span><span class="token punctuation">}</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>  
+        <span class="token punctuation">{</span><span class="token punctuation">{</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token operator">-</span><span class="token number">455</span><span class="token punctuation">,</span><span class="token number">142</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token operator">-</span><span class="token number">143</span><span class="token punctuation">,</span><span class="token number">188</span><span class="token punctuation">}</span> <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">;</span> <span class="token comment">//存储所有三角形顶点  </span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span><span class="token number">5</span><span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>  
+        <span class="token function">fillpolygon</span><span class="token punctuation">(</span>pts1<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//循环填充  </span>
+    <span class="token punctuation">}</span>  
+    <span class="token comment">//2.2 暗面  </span>
+    <span class="token function">setfillcolor</span><span class="token punctuation">(</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">177</span><span class="token punctuation">,</span><span class="token number">135</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    POINT pts2<span class="token punctuation">[</span><span class="token number">5</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">{</span>  
+        <span class="token punctuation">{</span><span class="token punctuation">{</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">467</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token operator">-</span><span class="token number">143</span><span class="token punctuation">,</span><span class="token number">188</span><span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">,</span>  
+        <span class="token punctuation">{</span><span class="token punctuation">{</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token number">455</span><span class="token punctuation">,</span><span class="token number">142</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token number">143</span><span class="token punctuation">,</span><span class="token number">188</span><span class="token punctuation">}</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>  
+        <span class="token punctuation">{</span><span class="token punctuation">{</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token number">230</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">77</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token number">280</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">384</span><span class="token punctuation">}</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>  
+        <span class="token punctuation">{</span><span class="token punctuation">{</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token operator">-</span><span class="token number">280</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">384</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">240</span><span class="token punctuation">}</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>  
+        <span class="token punctuation">{</span><span class="token punctuation">{</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token operator">-</span><span class="token number">230</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">77</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token operator">-</span><span class="token number">455</span><span class="token punctuation">,</span><span class="token number">142</span><span class="token punctuation">}</span> <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">;</span> <span class="token comment">//存储所有三角形顶点  </span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span><span class="token number">5</span><span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>  
+        <span class="token function">fillpolygon</span><span class="token punctuation">(</span>pts2<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//循环填充  </span>
+    <span class="token punctuation">}</span>  
+        <span class="token function">_getch</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>  
+<span class="token punctuation">}</span>  
+<span class="token keyword">int</span> <span class="token function">Sign</span><span class="token punctuation">(</span><span class="token keyword">int</span> x<span class="token punctuation">)</span>  
+<span class="token punctuation">{</span>  
+    <span class="token keyword">if</span><span class="token punctuation">(</span>x<span class="token operator">&lt;</span><span class="token number">0</span><span class="token punctuation">)</span> <span class="token keyword">return</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>  
+    <span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>x<span class="token operator">==</span><span class="token number">0</span><span class="token punctuation">)</span> <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>  
+    <span class="token keyword">else</span> <span class="token keyword">return</span> <span class="token number">1</span><span class="token punctuation">;</span>  
+<span class="token punctuation">}</span>  
+<span class="token keyword">void</span> <span class="token function">MPLine_all</span><span class="token punctuation">(</span><span class="token keyword">int</span> x1<span class="token punctuation">,</span><span class="token keyword">int</span> y1<span class="token punctuation">,</span><span class="token keyword">int</span> x2<span class="token punctuation">,</span><span class="token keyword">int</span> y2<span class="token punctuation">,</span><span class="token keyword">int</span> color<span class="token punctuation">)</span>  
+<span class="token punctuation">{</span>  
+    <span class="token keyword">int</span> x<span class="token punctuation">,</span>y<span class="token punctuation">,</span>a<span class="token punctuation">,</span>b<span class="token punctuation">,</span>d1<span class="token punctuation">,</span>d2<span class="token punctuation">,</span>d<span class="token punctuation">,</span>i<span class="token punctuation">,</span>s1<span class="token punctuation">,</span>s2<span class="token punctuation">,</span>temp<span class="token punctuation">,</span>swap<span class="token punctuation">;</span>  
+    a<span class="token operator">=</span><span class="token operator">-</span><span class="token function">abs</span><span class="token punctuation">(</span>y2<span class="token operator">-</span>y1<span class="token punctuation">)</span><span class="token punctuation">;</span>     b<span class="token operator">=</span><span class="token function">abs</span><span class="token punctuation">(</span>x2<span class="token operator">-</span>x1<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    x<span class="token operator">=</span>x1<span class="token punctuation">;</span> y<span class="token operator">=</span>y1<span class="token punctuation">;</span>  
+    s1<span class="token operator">=</span><span class="token function">Sign</span><span class="token punctuation">(</span>x2<span class="token operator">-</span>x1<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    s2<span class="token operator">=</span><span class="token function">Sign</span><span class="token punctuation">(</span>y2<span class="token operator">-</span>y1<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">-</span>a<span class="token operator">&gt;</span>b<span class="token punctuation">)</span><span class="token punctuation">{</span>  
+        temp<span class="token operator">=</span>b<span class="token punctuation">;</span>  
+        b<span class="token operator">=</span><span class="token operator">-</span>a<span class="token punctuation">;</span>  
+        a<span class="token operator">=</span><span class="token operator">-</span>temp<span class="token punctuation">;</span>  
+        swap<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>  
+    <span class="token punctuation">}</span>  
+    <span class="token keyword">else</span><span class="token punctuation">{</span>  
+        swap<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>  
+    <span class="token punctuation">}</span>  
+    d<span class="token operator">=</span><span class="token number">2</span><span class="token operator">*</span>a<span class="token operator">+</span>b<span class="token punctuation">;</span>  
+    d1<span class="token operator">=</span><span class="token number">2</span><span class="token operator">*</span>a<span class="token punctuation">;</span>  
+    d2<span class="token operator">=</span><span class="token number">2</span><span class="token operator">*</span><span class="token punctuation">(</span>a<span class="token operator">+</span>b<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">putpixel</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span>y<span class="token punctuation">,</span>color<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token keyword">for</span><span class="token punctuation">(</span>i<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>i<span class="token operator">&lt;=</span>b<span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>  
+        <span class="token keyword">if</span><span class="token punctuation">(</span>swap<span class="token operator">==</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">{</span>  
+            y<span class="token operator">+=</span>s2<span class="token punctuation">;</span>  
+        <span class="token punctuation">}</span>  
+        <span class="token keyword">else</span><span class="token punctuation">{</span>  
+            x<span class="token operator">+=</span>s1<span class="token punctuation">;</span>  
+        <span class="token punctuation">}</span>  
+        <span class="token keyword">if</span><span class="token punctuation">(</span>d<span class="token operator">&lt;</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>  
+            <span class="token keyword">if</span><span class="token punctuation">(</span>swap<span class="token operator">==</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">{</span>  
+                x<span class="token operator">+=</span>s1<span class="token punctuation">;</span>  
+            <span class="token punctuation">}</span>  
+            <span class="token keyword">else</span><span class="token punctuation">{</span>  
+                y<span class="token operator">+=</span>s2<span class="token punctuation">;</span>  
+            <span class="token punctuation">}</span>  
+            d<span class="token operator">+=</span>d2<span class="token punctuation">;</span>  
+        <span class="token punctuation">}</span>  
+        <span class="token keyword">else</span><span class="token punctuation">{</span>  
+            d<span class="token operator">+=</span>d1<span class="token punctuation">;</span>  
+        <span class="token punctuation">}</span>  
+        <span class="token function">putpixel</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span>y<span class="token punctuation">,</span>color<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token punctuation">}</span>  
+<span class="token punctuation">}</span>  
+<span class="token keyword">void</span> <span class="token function">BHLine_all</span><span class="token punctuation">(</span><span class="token keyword">int</span> x1<span class="token punctuation">,</span><span class="token keyword">int</span> y1<span class="token punctuation">,</span><span class="token keyword">int</span> x2<span class="token punctuation">,</span><span class="token keyword">int</span> y2<span class="token punctuation">,</span><span class="token keyword">int</span> color<span class="token punctuation">)</span>  
+<span class="token punctuation">{</span>  
+    <span class="token keyword">int</span> x<span class="token punctuation">,</span>y<span class="token punctuation">,</span>dx<span class="token punctuation">,</span>dy<span class="token punctuation">,</span>dk<span class="token punctuation">,</span>i<span class="token punctuation">,</span>s1<span class="token punctuation">,</span>s2<span class="token punctuation">,</span>temp<span class="token punctuation">,</span>swap<span class="token punctuation">;</span>  
+    dy<span class="token operator">=</span><span class="token function">abs</span><span class="token punctuation">(</span>y2<span class="token operator">-</span>y1<span class="token punctuation">)</span><span class="token punctuation">;</span>     dx<span class="token operator">=</span><span class="token function">abs</span><span class="token punctuation">(</span>x2<span class="token operator">-</span>x1<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    x<span class="token operator">=</span>x1<span class="token punctuation">;</span> y<span class="token operator">=</span>y1<span class="token punctuation">;</span>  
+    s1<span class="token operator">=</span><span class="token function">Sign</span><span class="token punctuation">(</span>x2<span class="token operator">-</span>x1<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    s2<span class="token operator">=</span><span class="token function">Sign</span><span class="token punctuation">(</span>y2<span class="token operator">-</span>y1<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token keyword">if</span><span class="token punctuation">(</span>dy<span class="token operator">&gt;</span>dx<span class="token punctuation">)</span><span class="token punctuation">{</span>  
+        temp<span class="token operator">=</span>dx<span class="token punctuation">;</span>  
+        dx<span class="token operator">=</span>dy<span class="token punctuation">;</span>  
+        dy<span class="token operator">=</span>temp<span class="token punctuation">;</span>  
+        swap<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>  
+    <span class="token punctuation">}</span>  
+    <span class="token keyword">else</span><span class="token punctuation">{</span>  
+        swap<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>  
+    <span class="token punctuation">}</span>  
+    dk<span class="token operator">=</span><span class="token number">2</span><span class="token operator">*</span>dy<span class="token operator">-</span>dx<span class="token punctuation">;</span>  
+    <span class="token keyword">for</span><span class="token punctuation">(</span>i<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>i<span class="token operator">&lt;=</span>dx<span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>  
+        <span class="token function">putpixel</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span>y<span class="token punctuation">,</span>color<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+        <span class="token keyword">if</span><span class="token punctuation">(</span>swap<span class="token operator">==</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">{</span>  
+            y<span class="token operator">+=</span>s2<span class="token punctuation">;</span>  
+        <span class="token punctuation">}</span>  
+        <span class="token keyword">else</span><span class="token punctuation">{</span>  
+            x<span class="token operator">+=</span>s1<span class="token punctuation">;</span>  
+        <span class="token punctuation">}</span>  
+        dk<span class="token operator">+=</span><span class="token number">2</span><span class="token operator">*</span>dy<span class="token punctuation">;</span>  
+        <span class="token keyword">if</span><span class="token punctuation">(</span>dk<span class="token operator">&gt;=</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>  
+            <span class="token keyword">if</span><span class="token punctuation">(</span>swap<span class="token operator">==</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">{</span>  
+                x<span class="token operator">+=</span>s1<span class="token punctuation">;</span>  
+            <span class="token punctuation">}</span>  
+            <span class="token keyword">else</span><span class="token punctuation">{</span>  
+                y<span class="token operator">+=</span>s2<span class="token punctuation">;</span>  
+            <span class="token punctuation">}</span>  
+            dk<span class="token operator">-=</span><span class="token number">2</span><span class="token operator">*</span>dx<span class="token punctuation">;</span>  
+        <span class="token punctuation">}</span>  
+    <span class="token punctuation">}</span>  
+<span class="token punctuation">}</span>  
+<span class="token comment">//画两条关于x轴对称的直线  </span>
+<span class="token keyword">void</span> <span class="token function">xduichen_line</span><span class="token punctuation">(</span><span class="token keyword">int</span> x1<span class="token punctuation">,</span><span class="token keyword">int</span> y1<span class="token punctuation">,</span><span class="token keyword">int</span> x2<span class="token punctuation">,</span><span class="token keyword">int</span> y2<span class="token punctuation">,</span><span class="token keyword">int</span> color<span class="token punctuation">,</span><span class="token keyword">int</span> way<span class="token punctuation">)</span>  
+<span class="token punctuation">{</span>  
+    <span class="token keyword">if</span><span class="token punctuation">(</span>way<span class="token operator">==</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">{</span>    <span class="token comment">//=1 调用中点画线法  </span>
+        <span class="token function">MPLine_all</span><span class="token punctuation">(</span>x1<span class="token punctuation">,</span>y1<span class="token punctuation">,</span>x2<span class="token punctuation">,</span>y2<span class="token punctuation">,</span>color<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+        <span class="token function">MPLine_all</span><span class="token punctuation">(</span><span class="token operator">-</span>x1<span class="token punctuation">,</span>y1<span class="token punctuation">,</span><span class="token operator">-</span>x2<span class="token punctuation">,</span>y2<span class="token punctuation">,</span>color<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token punctuation">}</span>  
+    <span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>way<span class="token operator">==</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">{</span>    <span class="token comment">//=2 调用Bresenham算法  </span>
+        <span class="token function">BHLine_all</span><span class="token punctuation">(</span>x1<span class="token punctuation">,</span>y1<span class="token punctuation">,</span>x2<span class="token punctuation">,</span>y2<span class="token punctuation">,</span>color<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+        <span class="token function">BHLine_all</span><span class="token punctuation">(</span><span class="token operator">-</span>x1<span class="token punctuation">,</span>y1<span class="token punctuation">,</span><span class="token operator">-</span>x2<span class="token punctuation">,</span>y2<span class="token punctuation">,</span>color<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token punctuation">}</span>  
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="3-4-作品效果"><a href="#3-4-作品效果" class="headerlink" title="3.4 作品效果"></a>3.4 作品效果</h3><p><img src="https://gitee.com/Lunacsy/pic/raw/master/202403310046076.png"></p>
+<hr>
+<h2 id="作品-4-奥运五环"><a href="#作品-4-奥运五环" class="headerlink" title="作品 4 奥运五环"></a>作品 4 奥运五环</h2><h3 id="4-1-需求分析"><a href="#4-1-需求分析" class="headerlink" title="4.1 需求分析"></a>4.1 需求分析</h3><ul>
+<li><p>绘画一个奥运五环</p>
+</li>
+<li><p>实现套圈效果</p>
+</li>
+<li><p>为五环填充颜色</p>
+</li>
+</ul>
+<h3 id="4-2-方案设计"><a href="#4-2-方案设计" class="headerlink" title="4.2 方案设计"></a>4.2 方案设计</h3><ul>
+<li><p>首先计算五环之间的关系，设置可变参数方便调整圆环半径以及圆环间间距。<br><img src="https://gitee.com/Lunacsy/pic/raw/master/202403310052152.png"></p>
+</li>
+<li><p>然后绘制实心圆环，不能使用for循环画多个圆，因为会有多个点缺失未填充。设计如下函数绘画实心圆环：void DrawAnnulus(int xc,int yc,int r,int q,int color)。其中q为大环与小环的半径之差，在函数内实现大环用<strong>中点画圆法</strong>，小圆用<strong>Bresenham画圆算法</strong>。</p>
+</li>
+<li><p>逐一绘制五个实心圆环。但不能实现套圈效果，如下图，需要对四处进行换色。<br><img src="https://gitee.com/Lunacsy/pic/raw/master/202403310052926.png"></p>
+</li>
+<li><p>使用floodfill()函数进行换色填充，发现无法形成封闭图形，所以需要补充各区域对应填充色的圆环，类似下图。举例发现图示浅绿色本为该填充颜色，只需要将浅蓝色绘制成填充色，即画部分圆环。<br><img src="https://gitee.com/Lunacsy/pic/raw/master/202403310053593.png"></p>
+</li>
+<li><p>为画部分圆环编写了**<em>v</em>****<em>oid drawpart(int xc,int yc,int r,int q,int color,int direction)</em><strong>。其中</strong>direction**用于确认画哪一部分的空心圆环。函数中会调用如图所示的函数，分别对应了画六个方位的点。<br><img src="https://gitee.com/Lunacsy/pic/raw/master/202403310055245.jpeg"></p>
+</li>
+<li><p>经过测试和分析后发现，蓝色圆环和黑色圆环需要补充5号位置，黄色圆环和绿色圆环需要补充1号位置。所以可以精简部分代码，如下所示。<br><img src="https://gitee.com/Lunacsy/pic/raw/master/202403310056025.png"></p>
+</li>
+<li><p>绘画完部分圆环再填充该区域即可，如下图。</p>
+</li>
+</ul>
+<p><img src="https://gitee.com/Lunacsy/pic/raw/master/202403310056704.png"></p>
+<ul>
+<li>尝试失败的地方：先绘画空心圆环再逐一填充发现有白边，为填充白边又会导致圆环线串色如下图。</li>
+</ul>
+<p><img src="https://gitee.com/Lunacsy/pic/raw/master/202403310056394.jpeg"></p>
+<h3 id="4-3-代码实现"><a href="#4-3-代码实现" class="headerlink" title="4.3 代码实现"></a>4.3 代码实现</h3><pre class="line-numbers language-cpp" data-language="cpp"><code class="language-cpp"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span><span class="token string">&lt;graphics.h&gt;</span>  </span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span><span class="token string">&lt;conio.h&gt;</span>  </span>
+<span class="token keyword">void</span> <span class="token function">CirclePoints</span><span class="token punctuation">(</span><span class="token keyword">int</span> xc<span class="token punctuation">,</span><span class="token keyword">int</span> yc<span class="token punctuation">,</span><span class="token keyword">int</span> x<span class="token punctuation">,</span><span class="token keyword">int</span> y<span class="token punctuation">,</span><span class="token keyword">int</span> color<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+<span class="token keyword">void</span> <span class="token function">MidpointCircle</span><span class="token punctuation">(</span><span class="token keyword">int</span> xc<span class="token punctuation">,</span><span class="token keyword">int</span> yc<span class="token punctuation">,</span><span class="token keyword">int</span> r<span class="token punctuation">,</span><span class="token keyword">int</span> color<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//1.中点画圆法  </span>
+<span class="token keyword">void</span> <span class="token function">BresenhamCircle</span><span class="token punctuation">(</span><span class="token keyword">int</span> xc<span class="token punctuation">,</span><span class="token keyword">int</span> yc<span class="token punctuation">,</span><span class="token keyword">int</span> r<span class="token punctuation">,</span><span class="token keyword">int</span> color<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//2.Bresenham画圆算法  </span>
+<span class="token keyword">void</span> <span class="token function">DrawAnnulus</span><span class="token punctuation">(</span><span class="token keyword">int</span> xc<span class="token punctuation">,</span><span class="token keyword">int</span> yc<span class="token punctuation">,</span><span class="token keyword">int</span> r<span class="token punctuation">,</span><span class="token keyword">int</span> r2<span class="token punctuation">,</span><span class="token keyword">int</span> color<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//3.使用中点画圆法和Bresenham画圆算法画实心圆环  </span>
+<span class="token keyword">void</span> <span class="token function">CirclePoints_direction</span><span class="token punctuation">(</span><span class="token keyword">int</span> xc<span class="token punctuation">,</span><span class="token keyword">int</span> yc<span class="token punctuation">,</span><span class="token keyword">int</span> x<span class="token punctuation">,</span><span class="token keyword">int</span> y<span class="token punctuation">,</span><span class="token keyword">int</span> color<span class="token punctuation">,</span><span class="token keyword">int</span> direction<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//4.为画部分空心圆环准备  </span>
+<span class="token keyword">void</span> <span class="token function">drawpart</span><span class="token punctuation">(</span><span class="token keyword">int</span> xc<span class="token punctuation">,</span><span class="token keyword">int</span> yc<span class="token punctuation">,</span><span class="token keyword">int</span> r<span class="token punctuation">,</span><span class="token keyword">int</span> q<span class="token punctuation">,</span><span class="token keyword">int</span> color<span class="token punctuation">,</span><span class="token keyword">int</span> direction<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//5.画部分空心圆环  </span>
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>  
+<span class="token punctuation">{</span>  
+    <span class="token function">initgraph</span><span class="token punctuation">(</span><span class="token number">800</span><span class="token punctuation">,</span><span class="token number">800</span><span class="token punctuation">)</span><span class="token punctuation">;</span>                <span class="token comment">//画布大小800*800  </span>
+    <span class="token function">setbkcolor</span><span class="token punctuation">(</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">249</span><span class="token punctuation">,</span><span class="token number">249</span><span class="token punctuation">,</span><span class="token number">249</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>      <span class="token comment">//背景颜色(因为后续画圆用白线，不能设置白色背景)  </span>
+    <span class="token function">cleardevice</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>                    <span class="token comment">//清空屏幕  </span>
+    <span class="token function">setorigin</span><span class="token punctuation">(</span><span class="token number">400</span><span class="token punctuation">,</span><span class="token number">400</span><span class="token punctuation">)</span><span class="token punctuation">;</span>                <span class="token comment">//重置原点  </span>
+    <span class="token function">setaspectratio</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>            <span class="token comment">//y轴向上  </span>
+    <span class="token comment">//画坐标轴  </span>
+    <span class="token function">setlinecolor</span><span class="token punctuation">(</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">161</span><span class="token punctuation">,</span><span class="token number">161</span><span class="token punctuation">,</span><span class="token number">160</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">setlinestyle</span><span class="token punctuation">(</span>PS_DASH<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">line</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">400</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">400</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">line</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">400</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">400</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token comment">//绘制奥运五环  </span>
+    <span class="token keyword">int</span> r <span class="token operator">=</span> <span class="token number">60</span><span class="token punctuation">;</span>  
+    <span class="token keyword">int</span> p <span class="token operator">=</span> <span class="token number">19</span><span class="token punctuation">;</span>  
+    <span class="token keyword">int</span> s1 <span class="token operator">=</span> <span class="token number">2</span> <span class="token operator">*</span> r <span class="token operator">+</span> <span class="token number">2</span> <span class="token operator">*</span> p<span class="token punctuation">;</span>  
+    <span class="token keyword">int</span> s2 <span class="token operator">=</span> r <span class="token operator">+</span> p<span class="token punctuation">;</span>  
+    <span class="token function">DrawAnnulus</span><span class="token punctuation">(</span><span class="token operator">-</span>s1<span class="token punctuation">,</span>r<span class="token punctuation">,</span>r<span class="token punctuation">,</span><span class="token number">12</span><span class="token punctuation">,</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">40</span><span class="token punctuation">,</span><span class="token number">20</span><span class="token punctuation">,</span><span class="token number">103</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//蓝色RGB(40,20,103)  </span>
+    <span class="token function">DrawAnnulus</span><span class="token punctuation">(</span><span class="token operator">-</span>s2<span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span>r<span class="token punctuation">,</span><span class="token number">12</span><span class="token punctuation">,</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">254</span><span class="token punctuation">,</span><span class="token number">240</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//黄色RGB(254,240,7)  </span>
+    <span class="token function">DrawAnnulus</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span>r<span class="token punctuation">,</span>r<span class="token punctuation">,</span><span class="token number">12</span><span class="token punctuation">,</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">30</span><span class="token punctuation">,</span><span class="token number">25</span><span class="token punctuation">,</span><span class="token number">21</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//黑色RGB(30,25,21)  </span>
+    <span class="token function">DrawAnnulus</span><span class="token punctuation">(</span>s2<span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span>r<span class="token punctuation">,</span><span class="token number">12</span><span class="token punctuation">,</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">135</span><span class="token punctuation">,</span><span class="token number">54</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//绿色RGB(2,135,54)  </span>
+    <span class="token function">DrawAnnulus</span><span class="token punctuation">(</span>s1<span class="token punctuation">,</span>r<span class="token punctuation">,</span>r<span class="token punctuation">,</span><span class="token number">12</span><span class="token punctuation">,</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">218</span><span class="token punctuation">,</span><span class="token number">36</span><span class="token punctuation">,</span><span class="token number">28</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//红色RGB(218,36,28)  </span>
+    <span class="token comment">//补充  </span>
+    <span class="token function">drawpart</span><span class="token punctuation">(</span><span class="token operator">-</span>s1<span class="token punctuation">,</span>r<span class="token punctuation">,</span>r<span class="token punctuation">,</span><span class="token number">12</span><span class="token punctuation">,</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">40</span><span class="token punctuation">,</span><span class="token number">20</span><span class="token punctuation">,</span><span class="token number">103</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">setfillcolor</span><span class="token punctuation">(</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">40</span><span class="token punctuation">,</span><span class="token number">20</span><span class="token punctuation">,</span><span class="token number">103</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">floodfill</span><span class="token punctuation">(</span><span class="token operator">-</span>s1<span class="token operator">+</span>r<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">,</span>r<span class="token punctuation">,</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">40</span><span class="token punctuation">,</span><span class="token number">20</span><span class="token punctuation">,</span><span class="token number">103</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+        <span class="token function">drawpart</span><span class="token punctuation">(</span><span class="token operator">-</span>s2<span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span>r<span class="token punctuation">,</span><span class="token number">12</span><span class="token punctuation">,</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">254</span><span class="token punctuation">,</span><span class="token number">240</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">setfillcolor</span><span class="token punctuation">(</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">254</span><span class="token punctuation">,</span><span class="token number">240</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">floodfill</span><span class="token punctuation">(</span><span class="token operator">-</span>s2<span class="token operator">+</span><span class="token number">10</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token operator">+</span>r<span class="token operator">+</span><span class="token number">10</span><span class="token punctuation">,</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">254</span><span class="token punctuation">,</span><span class="token number">240</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+        <span class="token function">drawpart</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span>r<span class="token punctuation">,</span>r<span class="token punctuation">,</span><span class="token number">12</span><span class="token punctuation">,</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">30</span><span class="token punctuation">,</span><span class="token number">25</span><span class="token punctuation">,</span><span class="token number">21</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">setfillcolor</span><span class="token punctuation">(</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">30</span><span class="token punctuation">,</span><span class="token number">25</span><span class="token punctuation">,</span><span class="token number">21</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">floodfill</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token operator">+</span>r<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">,</span>r<span class="token punctuation">,</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">30</span><span class="token punctuation">,</span><span class="token number">25</span><span class="token punctuation">,</span><span class="token number">21</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+        <span class="token function">drawpart</span><span class="token punctuation">(</span>s2<span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span>r<span class="token punctuation">,</span><span class="token number">12</span><span class="token punctuation">,</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">135</span><span class="token punctuation">,</span><span class="token number">54</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">setfillcolor</span><span class="token punctuation">(</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">135</span><span class="token punctuation">,</span><span class="token number">54</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">floodfill</span><span class="token punctuation">(</span>s2<span class="token operator">+</span><span class="token number">10</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token operator">+</span>r<span class="token operator">+</span><span class="token number">10</span><span class="token punctuation">,</span><span class="token function">RGB</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">135</span><span class="token punctuation">,</span><span class="token number">54</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+        <span class="token function">_getch</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>  
+<span class="token punctuation">}</span>  
+<span class="token keyword">void</span> <span class="token function">CirclePoints</span><span class="token punctuation">(</span><span class="token keyword">int</span> xc<span class="token punctuation">,</span><span class="token keyword">int</span> yc<span class="token punctuation">,</span><span class="token keyword">int</span> x<span class="token punctuation">,</span><span class="token keyword">int</span> y<span class="token punctuation">,</span><span class="token keyword">int</span> color<span class="token punctuation">)</span>  
+<span class="token punctuation">{</span>  
+    <span class="token function">putpixel</span><span class="token punctuation">(</span>xc<span class="token operator">+</span>x<span class="token punctuation">,</span>yc<span class="token operator">+</span>y<span class="token punctuation">,</span>color<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">putpixel</span><span class="token punctuation">(</span>xc<span class="token operator">+</span>x<span class="token punctuation">,</span>yc<span class="token operator">-</span>y<span class="token punctuation">,</span>color<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">putpixel</span><span class="token punctuation">(</span>xc<span class="token operator">-</span>x<span class="token punctuation">,</span>yc<span class="token operator">+</span>y<span class="token punctuation">,</span>color<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">putpixel</span><span class="token punctuation">(</span>xc<span class="token operator">-</span>x<span class="token punctuation">,</span>yc<span class="token operator">-</span>y<span class="token punctuation">,</span>color<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">putpixel</span><span class="token punctuation">(</span>xc<span class="token operator">+</span>y<span class="token punctuation">,</span>yc<span class="token operator">+</span>x<span class="token punctuation">,</span>color<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">putpixel</span><span class="token punctuation">(</span>xc<span class="token operator">+</span>y<span class="token punctuation">,</span>yc<span class="token operator">-</span>x<span class="token punctuation">,</span>color<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">putpixel</span><span class="token punctuation">(</span>xc<span class="token operator">-</span>y<span class="token punctuation">,</span>yc<span class="token operator">+</span>x<span class="token punctuation">,</span>color<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">putpixel</span><span class="token punctuation">(</span>xc<span class="token operator">-</span>y<span class="token punctuation">,</span>yc<span class="token operator">-</span>x<span class="token punctuation">,</span>color<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+<span class="token punctuation">}</span>  
+<span class="token comment">//1.中点画圆法  </span>
+<span class="token keyword">void</span> <span class="token function">MidpointCircle</span><span class="token punctuation">(</span><span class="token keyword">int</span> xc<span class="token punctuation">,</span><span class="token keyword">int</span> yc<span class="token punctuation">,</span><span class="token keyword">int</span> r<span class="token punctuation">,</span><span class="token keyword">int</span> color<span class="token punctuation">)</span>  
+<span class="token punctuation">{</span>  
+    <span class="token keyword">int</span> x <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>  
+    <span class="token keyword">int</span> y <span class="token operator">=</span> r<span class="token punctuation">;</span>  
+    <span class="token keyword">double</span> d <span class="token operator">=</span> <span class="token number">1</span> <span class="token operator">-</span> r<span class="token punctuation">;</span>  
+    <span class="token function">CirclePoints</span><span class="token punctuation">(</span>xc<span class="token punctuation">,</span>yc<span class="token punctuation">,</span>x<span class="token punctuation">,</span>y<span class="token punctuation">,</span>color<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token keyword">while</span><span class="token punctuation">(</span>x <span class="token operator">&lt;</span> y<span class="token punctuation">)</span><span class="token punctuation">{</span>  
+        <span class="token keyword">if</span><span class="token punctuation">(</span>d <span class="token operator">&lt;</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>  
+            d <span class="token operator">+=</span> <span class="token number">2</span> <span class="token operator">*</span> x <span class="token operator">+</span> <span class="token number">3</span><span class="token punctuation">;</span>  
+        <span class="token punctuation">}</span>  
+        <span class="token keyword">else</span><span class="token punctuation">{</span>  
+            d <span class="token operator">+=</span> <span class="token number">2</span> <span class="token operator">*</span> <span class="token punctuation">(</span>x<span class="token operator">-</span>y<span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">5</span><span class="token punctuation">;</span>  
+            y<span class="token operator">--</span><span class="token punctuation">;</span>  
+        <span class="token punctuation">}</span>  
+        x<span class="token operator">++</span><span class="token punctuation">;</span>  
+        <span class="token function">CirclePoints</span><span class="token punctuation">(</span>xc<span class="token punctuation">,</span>yc<span class="token punctuation">,</span>x<span class="token punctuation">,</span>y<span class="token punctuation">,</span>color<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token punctuation">}</span>  
+<span class="token punctuation">}</span>  
+<span class="token comment">//2.Bresenham画圆算法  </span>
+<span class="token keyword">void</span> <span class="token function">BresenhamCircle</span><span class="token punctuation">(</span><span class="token keyword">int</span> xc<span class="token punctuation">,</span><span class="token keyword">int</span> yc<span class="token punctuation">,</span><span class="token keyword">int</span> r<span class="token punctuation">,</span><span class="token keyword">int</span> color<span class="token punctuation">)</span>  
+<span class="token punctuation">{</span>  
+    <span class="token keyword">int</span> x <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>  
+    <span class="token keyword">int</span> y <span class="token operator">=</span> r<span class="token punctuation">;</span>  
+    <span class="token keyword">double</span> d <span class="token operator">=</span> <span class="token number">3</span> <span class="token operator">-</span> <span class="token number">2</span> <span class="token operator">*</span> r<span class="token punctuation">;</span>  
+    <span class="token keyword">while</span><span class="token punctuation">(</span>x <span class="token operator">&lt;</span> y<span class="token punctuation">)</span><span class="token punctuation">{</span>  
+        <span class="token function">CirclePoints</span><span class="token punctuation">(</span>xc<span class="token punctuation">,</span>yc<span class="token punctuation">,</span>x<span class="token punctuation">,</span>y<span class="token punctuation">,</span>color<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+        <span class="token keyword">if</span><span class="token punctuation">(</span>d <span class="token operator">&gt;=</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>  
+            d <span class="token operator">+=</span> <span class="token number">4</span> <span class="token operator">-</span> <span class="token number">4</span> <span class="token operator">*</span> y<span class="token punctuation">;</span>  
+            y<span class="token operator">--</span><span class="token punctuation">;</span>  
+        <span class="token punctuation">}</span>  
+        d <span class="token operator">+=</span> <span class="token number">4</span> <span class="token operator">*</span> x <span class="token operator">+</span> <span class="token number">6</span><span class="token punctuation">;</span>  
+        x<span class="token operator">++</span><span class="token punctuation">;</span>  
+    <span class="token punctuation">}</span>  
+    <span class="token keyword">if</span><span class="token punctuation">(</span>x<span class="token operator">==</span>y<span class="token punctuation">)</span><span class="token punctuation">{</span>  
+        <span class="token function">CirclePoints</span><span class="token punctuation">(</span>xc<span class="token punctuation">,</span>yc<span class="token punctuation">,</span>x<span class="token punctuation">,</span>y<span class="token punctuation">,</span>color<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token punctuation">}</span>  
+<span class="token punctuation">}</span>  
+<span class="token comment">//3.使用中点画圆法和Bresenham画圆算法画实心圆环  </span>
+<span class="token keyword">void</span> <span class="token function">DrawAnnulus</span><span class="token punctuation">(</span><span class="token keyword">int</span> xc<span class="token punctuation">,</span><span class="token keyword">int</span> yc<span class="token punctuation">,</span><span class="token keyword">int</span> r<span class="token punctuation">,</span><span class="token keyword">int</span> q<span class="token punctuation">,</span><span class="token keyword">int</span> color<span class="token punctuation">)</span>  
+<span class="token punctuation">{</span>  
+    <span class="token function">MidpointCircle</span><span class="token punctuation">(</span>xc<span class="token punctuation">,</span>yc<span class="token punctuation">,</span>r<span class="token operator">+</span>q<span class="token punctuation">,</span>color<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//中点画圆法  </span>
+    <span class="token function">BresenhamCircle</span><span class="token punctuation">(</span>xc<span class="token punctuation">,</span>yc<span class="token punctuation">,</span>r<span class="token punctuation">,</span>color<span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token comment">//Bresenham画圆算法  </span>
+    <span class="token function">setfillcolor</span><span class="token punctuation">(</span>color<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token function">floodfill</span><span class="token punctuation">(</span>xc<span class="token operator">-</span>r<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span>yc<span class="token punctuation">,</span>color<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+<span class="token punctuation">}</span>  
+<span class="token comment">//4.为画部分空心圆环准备  </span>
+<span class="token keyword">void</span> <span class="token function">CirclePoints_direction</span><span class="token punctuation">(</span><span class="token keyword">int</span> xc<span class="token punctuation">,</span><span class="token keyword">int</span> yc<span class="token punctuation">,</span><span class="token keyword">int</span> x<span class="token punctuation">,</span><span class="token keyword">int</span> y<span class="token punctuation">,</span><span class="token keyword">int</span> color<span class="token punctuation">,</span><span class="token keyword">int</span> direction<span class="token punctuation">)</span>  
+<span class="token punctuation">{</span>  
+    <span class="token keyword">switch</span> <span class="token punctuation">(</span>direction<span class="token punctuation">)</span> <span class="token punctuation">{</span>  
+    <span class="token keyword">case</span> <span class="token number">1</span><span class="token operator">:</span>  
+        <span class="token function">putpixel</span><span class="token punctuation">(</span>xc<span class="token operator">+</span>x<span class="token punctuation">,</span>yc<span class="token operator">+</span>y<span class="token punctuation">,</span>color<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+        <span class="token keyword">break</span><span class="token punctuation">;</span>  
+    <span class="token keyword">case</span> <span class="token number">5</span><span class="token operator">:</span>  
+        <span class="token function">putpixel</span><span class="token punctuation">(</span>xc<span class="token operator">+</span>y<span class="token punctuation">,</span>yc<span class="token operator">+</span>x<span class="token punctuation">,</span>color<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+        <span class="token function">putpixel</span><span class="token punctuation">(</span>xc<span class="token operator">+</span>y<span class="token punctuation">,</span>yc<span class="token operator">-</span>x<span class="token punctuation">,</span>color<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+        <span class="token keyword">break</span><span class="token punctuation">;</span>  
+    <span class="token punctuation">}</span>  
+<span class="token punctuation">}</span>  
+<span class="token comment">//5.画部分空心圆环  </span>
+<span class="token keyword">void</span> <span class="token function">drawpart</span><span class="token punctuation">(</span><span class="token keyword">int</span> xc<span class="token punctuation">,</span><span class="token keyword">int</span> yc<span class="token punctuation">,</span><span class="token keyword">int</span> r<span class="token punctuation">,</span><span class="token keyword">int</span> q<span class="token punctuation">,</span><span class="token keyword">int</span> color<span class="token punctuation">,</span><span class="token keyword">int</span> direction<span class="token punctuation">)</span>  
+<span class="token punctuation">{</span>  
+    <span class="token keyword">int</span> x <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>  
+    <span class="token keyword">int</span> y <span class="token operator">=</span> r<span class="token punctuation">;</span>  
+    <span class="token keyword">double</span> d <span class="token operator">=</span> <span class="token number">1</span> <span class="token operator">-</span> r<span class="token punctuation">;</span>  
+    <span class="token function">CirclePoints_direction</span><span class="token punctuation">(</span>xc<span class="token punctuation">,</span>yc<span class="token punctuation">,</span>x<span class="token punctuation">,</span>y<span class="token punctuation">,</span>color<span class="token punctuation">,</span>direction<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token keyword">while</span><span class="token punctuation">(</span>x <span class="token operator">&lt;</span> y<span class="token punctuation">)</span><span class="token punctuation">{</span>  
+        <span class="token keyword">if</span><span class="token punctuation">(</span>d <span class="token operator">&lt;</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>  
+            d <span class="token operator">+=</span> <span class="token number">2</span> <span class="token operator">*</span> x <span class="token operator">+</span> <span class="token number">3</span><span class="token punctuation">;</span>  
+        <span class="token punctuation">}</span>  
+        <span class="token keyword">else</span><span class="token punctuation">{</span>  
+            d <span class="token operator">+=</span> <span class="token number">2</span> <span class="token operator">*</span> <span class="token punctuation">(</span>x<span class="token operator">-</span>y<span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">5</span><span class="token punctuation">;</span>  
+            y<span class="token operator">--</span><span class="token punctuation">;</span>  
+        <span class="token punctuation">}</span>  
+        x<span class="token operator">++</span><span class="token punctuation">;</span>  
+        <span class="token function">CirclePoints_direction</span><span class="token punctuation">(</span>xc<span class="token punctuation">,</span>yc<span class="token punctuation">,</span>x<span class="token punctuation">,</span>y<span class="token punctuation">,</span>color<span class="token punctuation">,</span>direction<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token punctuation">}</span>  
+    x <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>  
+    <span class="token keyword">int</span> y2 <span class="token operator">=</span> r <span class="token operator">+</span> q<span class="token punctuation">;</span>  
+    <span class="token keyword">double</span> d2 <span class="token operator">=</span> <span class="token number">1</span> <span class="token operator">-</span> r <span class="token operator">-</span> q<span class="token punctuation">;</span>  
+    <span class="token function">CirclePoints_direction</span><span class="token punctuation">(</span>xc<span class="token punctuation">,</span>yc<span class="token punctuation">,</span>x<span class="token punctuation">,</span>y2<span class="token punctuation">,</span>color<span class="token punctuation">,</span>direction<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token keyword">while</span><span class="token punctuation">(</span>x <span class="token operator">&lt;</span> y2<span class="token punctuation">)</span><span class="token punctuation">{</span>  
+        <span class="token keyword">if</span><span class="token punctuation">(</span>d2 <span class="token operator">&lt;</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>  
+            d2 <span class="token operator">+=</span> <span class="token number">2</span> <span class="token operator">*</span> x <span class="token operator">+</span> <span class="token number">3</span><span class="token punctuation">;</span>  
+        <span class="token punctuation">}</span>  
+        <span class="token keyword">else</span><span class="token punctuation">{</span>  
+            d2 <span class="token operator">+=</span> <span class="token number">2</span> <span class="token operator">*</span> <span class="token punctuation">(</span>x<span class="token operator">-</span>y2<span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">5</span><span class="token punctuation">;</span>  
+            y2<span class="token operator">--</span><span class="token punctuation">;</span>  
+        <span class="token punctuation">}</span>  
+        x<span class="token operator">++</span><span class="token punctuation">;</span>  
+        <span class="token function">CirclePoints_direction</span><span class="token punctuation">(</span>xc<span class="token punctuation">,</span>yc<span class="token punctuation">,</span>x<span class="token punctuation">,</span>y2<span class="token punctuation">,</span>color<span class="token punctuation">,</span>direction<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+    <span class="token punctuation">}</span>  
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="4-4-作品效果"><a href="#4-4-作品效果" class="headerlink" title="4.4 作品效果"></a>4.4 作品效果</h3><p><img src="https://gitee.com/Lunacsy/pic/raw/master/202403310058520.png"></p>
 
                 
             </div>
@@ -802,54 +1297,18 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2024/03/f944e5e6a83d.html">
+                <a href="/2024/03/b29a8cfb8747.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="平时作业">
                         
-                        <span class="card-title"></span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2024-03-30
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            Lulunaowl
-                            
-                        </span>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2024/03/794d1aeeb045.html">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
-                        
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">平时作业</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -864,11 +1323,90 @@
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            Lulunaowl
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/23-24-2/" class="post-category">
+                                    23-24-2
+                                </a>
+                            
+                            <a href="/categories/23-24-2/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/" class="post-category">
+                                    计算机图形学
+                                </a>
+                            
                             
                         </span>
                     </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Easyx/">
+                        <span class="chip bg-color">Easyx</span>
+                    </a>
+                    
+                    <a href="/tags/Cpp/">
+                        <span class="chip bg-color">Cpp</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                本篇&nbsp;<i class="far fa-dot-circle"></i>
+            </div>
+            <div class="card">
+                <a href="/2024/03/b29a8cfb8747.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="平时作业">
+                        
+                        <span class="card-title">平时作业</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-03-30
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/23-24-2/" class="post-category">
+                                    23-24-2
+                                </a>
+                            
+                            <a href="/categories/23-24-2/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/" class="post-category">
+                                    计算机图形学
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Easyx/">
+                        <span class="chip bg-color">Easyx</span>
+                    </a>
+                    
+                    <a href="/tags/Cpp/">
+                        <span class="chip bg-color">Cpp</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -1069,7 +1607,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">897</span>&nbsp;字
+                class="white-color">4.3k</span>&nbsp;字
             
             
             
