@@ -397,7 +397,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.3k
+                    1.4k
                 </div>
                 
 
@@ -518,7 +518,46 @@ void&nbsp;heart(int&nbsp;x0,&nbsp;int&nbsp;y0,&nbsp;int&nbsp;size,&nbsp;COLORREF
 &nbsp;&nbsp;&nbsp;&nbsp;}  
 }<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p>效果如下：</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#!/usr/bin/python</span>
+<span class="token comment"># -*- coding: UTF-8 -*-</span>
 
+<span class="token keyword">def</span> <span class="token function">varfunc</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    var <span class="token operator">=</span> <span class="token number">0</span>
+    <span class="token keyword">print</span> <span class="token punctuation">(</span><span class="token string">'var = %d'</span> <span class="token operator">%</span> var<span class="token punctuation">)</span>
+    var <span class="token operator">+=</span> <span class="token number">1</span>
+<span class="token keyword">if</span> __name__ <span class="token operator">==</span> <span class="token string">'__main__'</span><span class="token punctuation">:</span>
+    <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        varfunc<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token comment"># 类的属性</span>
+<span class="token comment"># 作为类的一个属性吧</span>
+<span class="token keyword">class</span> <span class="token class-name">Static</span><span class="token punctuation">:</span>
+    StaticVar <span class="token operator">=</span> <span class="token number">5</span>
+    <span class="token keyword">def</span> <span class="token function">varfunc</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        self<span class="token punctuation">.</span>StaticVar <span class="token operator">+=</span> <span class="token number">1</span>
+        <span class="token keyword">print</span> <span class="token punctuation">(</span>self<span class="token punctuation">.</span>StaticVar<span class="token punctuation">)</span>
+
+<span class="token keyword">print</span> <span class="token punctuation">(</span>Static<span class="token punctuation">.</span>StaticVar<span class="token punctuation">)</span>
+a <span class="token operator">=</span> Static<span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    a<span class="token punctuation">.</span>varfunc<span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">HelloWorld</span> <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Hello World"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;iostream&gt;
+using namespace std;
+ 
+// main() 是程序开始执行的地方
+ 
+int main()
+{
+   cout &lt;&lt; "Hello World"; // 输出 Hello World
+   return 0;
+}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
                 
             </div>
             <hr/>
@@ -1018,7 +1057,7 @@ void&nbsp;heart(int&nbsp;x0,&nbsp;int&nbsp;y0,&nbsp;int&nbsp;size,&nbsp;COLORREF
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">1.3k</span>&nbsp;字
+                class="white-color">1.4k</span>&nbsp;字
             
             
             
