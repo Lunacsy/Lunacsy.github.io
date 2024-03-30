@@ -26,6 +26,7 @@
     <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="/css/matery.css">
     <link rel="stylesheet" type="text/css" href="/css/my.css">
+    <meta name="referrer" content="no-referrer" />
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
@@ -310,7 +311,17 @@
 
 
 
+<div class="statis">
+    <span class="count"><a href="/categories">2</a></span>
+    <span class="name">分类</span>
+</div>
 
+
+
+<div class="statis">
+    <span class="count"><a href="/tags">2</a></span>
+    <span class="name">标签</span>
+</div>
 
 
                     </div>
@@ -330,7 +341,17 @@
 
 
 
+<div class="statis">
+    <span class="count"><a href="/categories">2</a></span>
+    <span class="name">分类</span>
+</div>
 
+
+
+<div class="statis">
+    <span class="count"><a href="/tags">2</a></span>
+    <span class="name">标签</span>
+</div>
 
 
                                 </div>
@@ -506,7 +527,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [],
+                data: [{"name":"23-24-2","value":1},{"name":"计算机图形学","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -530,7 +551,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: []
+                data: ["Easyx","Cpp"]
             }
         ],
         yAxis: [
@@ -543,7 +564,7 @@
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [],
+                data: [1,1],
                 markPoint: {
                     symbolSize: 45,
                     data: [{
@@ -712,6 +733,18 @@
         <div class="sub-title center-align"><i class="fa fa-book"></i>&nbsp;&nbsp;其他技能</div>
         <div class="tag-chips center-align">
             
+            
+            <a href="/tags/Easyx/">
+                <span class="chip center-align waves-effect waves-light chip-default">Easyx</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Cpp/">
+                <span class="chip center-align waves-effect waves-light chip-default">Cpp</span>
+            </a>
+            
+            
         </div>
     </div>
     
@@ -839,7 +872,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">1.4k</span>&nbsp;字
+                class="white-color">897</span>&nbsp;字
             
             
             
